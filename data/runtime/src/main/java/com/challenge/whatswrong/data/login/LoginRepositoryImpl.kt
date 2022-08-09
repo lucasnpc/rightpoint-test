@@ -11,7 +11,7 @@ class LoginRepositoryImpl @Inject constructor(
 ) : LoginRepository {
     override suspend fun login(userName: String, password: String): UserSession {
         val request = LoginRequest(
-            userName = userName,
+            username = userName,
             password = password
         )
         val response = loginService.login(request)

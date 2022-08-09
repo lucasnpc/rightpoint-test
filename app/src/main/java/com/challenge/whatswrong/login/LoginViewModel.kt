@@ -17,14 +17,16 @@ class LoginViewModel @Inject constructor(
     val uiState: StateFlow<State> = _uiState
 
     fun login(userName: CharSequence?, password: CharSequence?) = viewModelScope.launch {
-        _uiState.value = State.Loading
-
-        val session = repository.login(
+        _uiState.emit(State.Loading)
+        try {
+            val session = repository.login(
                 userName = userName?.toString().orEmpty(),
                 password = password?.toString().orEmpty()
-        )
-        val state = State.LoginSucceeded(session)
-
-        _uiState.value = state
+            )
+            _uiState.emit(State.LoginSucceeded(session))
+        } catch (e: Exception) {
+            println(e.message)
+            _uiState.emit(State.LoginFailed(e))
+        }
     }
 }

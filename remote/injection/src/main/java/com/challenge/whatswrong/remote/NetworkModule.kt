@@ -35,7 +35,7 @@ object NetworkModule {
         val logging = HttpLoggingInterceptor(logger).apply { this.level = level }
 
         return OkHttpClient.Builder()
-            .callTimeout(10L, TimeUnit.MILLISECONDS)
+//            .callTimeout(10L, TimeUnit.MILLISECONDS)
             .addInterceptor(logging)
             .build()
     }
