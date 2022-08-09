@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <style name="Theme.WhatsWrong" parent="Base.Theme"/>
+    <style name="Theme.WhatsWrong.NoActionBar" parent="Base.Theme.NoActionBar"/>
+
+    <!-- Define custom themes here -->
+
+</resources>

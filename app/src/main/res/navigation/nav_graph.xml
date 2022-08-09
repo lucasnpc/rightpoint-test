@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.challenge.whatswrong.login.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/actionToHome"
+            app:destination="@id/home"
+            app:popUpTo="@id/login"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.challenge.whatswrong.home.HomeFragment"
+        android:label="Home">
+        <argument
+            android:name="firstName"
+            app:argType="string"/>
+        <argument
+            android:name="lastName"
+            app:argType="string"/>
+    </fragment>
+</navigation>

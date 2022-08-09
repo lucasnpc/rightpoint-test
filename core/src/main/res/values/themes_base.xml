@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.V23.Theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnError">@color/colorOnError</item>
+
+        <!--Material type attributes-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.WhatsWrong.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.WhatsWrong.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.WhatsWrong.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.WhatsWrong.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.WhatsWrong.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.WhatsWrong.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.WhatsWrong.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.WhatsWrong.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.WhatsWrong.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.WhatsWrong.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.WhatsWrong.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.WhatsWrong.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.WhatsWrong.Overline</item>
+        <!--Material shape attributes-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.WhatsWrong.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.WhatsWrong.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.WhatsWrong.LargeComponent</item>
+
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/status_bar_scrim</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">@bool/use_light_status_bar</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@color/nav_bar_scrim</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">@bool/use_light_nav_bar</item>
+        <item name="android:navigationBarDividerColor" tools:ignore="NewApi">?attr/colorControlHighlight</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+    </style>
+
+    <style name="Base.V23.Theme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnError">@color/colorOnError</item>
+
+        <!--Material type attributes-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.WhatsWrong.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.WhatsWrong.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.WhatsWrong.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.WhatsWrong.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.WhatsWrong.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.WhatsWrong.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.WhatsWrong.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.WhatsWrong.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.WhatsWrong.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.WhatsWrong.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.WhatsWrong.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.WhatsWrong.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.WhatsWrong.Overline</item>
+        <!--Material shape attributes-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.WhatsWrong.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.WhatsWrong.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.WhatsWrong.LargeComponent</item>
+
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/status_bar_scrim</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">@bool/use_light_status_bar</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@color/nav_bar_scrim</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">@bool/use_light_nav_bar</item>
+        <item name="android:navigationBarDividerColor" tools:ignore="NewApi">?attr/colorControlHighlight</item>
+    </style>
+
+    <style name="Base.Theme" parent="Base.V23.Theme"/>
+    <style name="Base.Theme.NoActionBar" parent="Base.V23.Theme.NoActionBar"/>
+</resources>
